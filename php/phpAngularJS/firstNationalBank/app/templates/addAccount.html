@@ -1,0 +1,26 @@
+<div class="panel panel-primary" style="height:700px">
+    <form name="loginForm">
+        <div class="row top-buffer-20">
+            <div class="col-md-2">Account Type:</div>
+            <div class="col-md-3">
+                <select class="form-control" ng-model="account.accountName" required>
+                    <option value="">---Please select type---</option>
+                    <option value="Freedom">Freedom</option>
+                    <option value="Go">Go</option>
+                    <option value="Saving">Saving</option>
+                </select>
+            </div>
+            <div class="col-md-2">Card Number:</div>
+            <div class="col-md-3"><input class="form-control" type="text" ng-model="account.cardNum" ng-pattern="/\d{4}-\d{4}-\d{4}-\d{4}/" required></div>
+        </div>
+        <div class="row top-buffer-20">
+            <div class="col-md-1">
+                <input type="submit" value="Submit" class="btn btn-primary" ng-click="openAccount(account)"
+                       data-ng-disabled="loginForm.$invalid">
+            </div>
+            <div class="col-md-1">
+                <a class="btn btn-primary" href="#/accountList">Go Back</a>
+            </div>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,50 @@
+<Form name="registerForm">
+    <div class="row top-buffer-20">
+        <div class="col-md-1 col-md-offset-4">FirstName:</div>
+        <div class="col-md-3"><input type="text" class="form-control" ng-model="user.userFName" required></div>
+    </div>
+
+    <div class="row top-buffer-20">
+        <div class="col-md-1 col-md-offset-4">LastName:</div>
+        <div class="col-md-3"><input type="text" class="form-control" ng-model="user.userLName" required></div>
+    </div>
+
+    <div class="row top-buffer-20">
+        <div class="col-md-1 col-md-offset-4">Username:</div>
+        <div class="col-md-3"><input type="text" class="form-control" id="userName" ng-model="user.userName" required>
+        </div>
+        <label id="userLabel"></label>
+    </div>
+
+    <div class="row top-buffer-20">
+        <div class="col-md-1 col-md-offset-4">Password:</div>
+        <div class="col-md-3"><input type="password" class="form-control" ng-model="user.userPassword" required></div>
+        <label id="passwordLabel"></label>
+
+    </div>
+
+    <div class="row top-buffer-20">
+        <div class="col-md-1 col-md-offset-4">Repeat:</div>
+        <div class="col-md-3"><input type="password" class="form-control" name="userPassword2"
+                                     ng-model="user.userPassword2" password-match="user.userPassword" required></div>
+        <label data-ng-show="user.userPassword2!=user.userPassword">Password not match</label>
+    </div>
+
+    <div class="row top-buffer-20">
+        <div class="col-md-1 col-md-offset-4">Email:</div>
+        <div class="col-md-3"><input type="email" name="userEmail" class="form-control" ng-model="user.userEmail"
+                                     required></div>
+        <label data-ng-show="registerForm.userEmail.$error.email">Email is not valid</label>
+    </div>
+
+    <div class="row top-buffer-20">
+        <div class="col-md-1 col-md-offset-5">
+            <input type="submit" value="Submit" class="btn btn-primary" ng-click="register(user)"
+                   data-ng-disabled="registerForm.$invalid||user.userPassword2!=user.userPassword">
+        </div>
+
+        <div class="col-md-1 ">
+            <a class="btn btn-primary" href="#/login">Go Back</a>
+        </div>
+    </div>
+</Form>
