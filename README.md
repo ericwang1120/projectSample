@@ -25,5 +25,5 @@ The phpAngularJS folder contains a project written by angularJS and php. The pro
 1. MVC Structure
 2. Dispatchers
 3. SQL Utility class
-4. Session Validation
+4. Session validation
 
