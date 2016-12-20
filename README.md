@@ -3,6 +3,7 @@
 ## PhpAngularJS  
 [Demo](https://php-assignment2.000webhostapp.com/firstNationalBank/ "Demo")  
 The phpAngularJS folder contains a project written by angularJS and php. The project is about a tiny bank system in which users can register, open/close accounts as well as do transactions.  
+SQL file can be found in the SQL folder.  
 ### Techniques
 ### Front-end
 1. Bootstrap CSS
@@ -16,6 +17,7 @@ The phpAngularJS folder contains a project written by angularJS and php. The pro
 
 ## PhpServerSideMVC
 [Demo](https://phpassignment3.000webhostapp.com/assignment3)
+SQL file can be found in the SQL folder.  
 ### Techniques
 ### Front-end
 1. Bootstrap CSS
