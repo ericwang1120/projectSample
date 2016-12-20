@@ -16,7 +16,7 @@ SQL file can be found in the SQL folder.
 3. Session validation
 
 ## PhpServerSideMVC
-[Demo](https://phpassignment3.000webhostapp.com/assignment3)
+[Demo](https://phpassignment3.000webhostapp.com/assignment3)  
 SQL file can be found in the SQL folder.  
 ### Techniques
 ### Front-end
