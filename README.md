@@ -11,8 +11,8 @@ The phpAngularJS folder contains a project written by angularJS and php. The pro
 
 ### back-end
 1. Slim
-2. SQL Utility class
-
+2. SQL utility class
+3. Session validation
 
 ## phpServerSideMVC
 [Demo](https://phpassignment3.000webhostapp.com/assignment3)
@@ -25,3 +25,5 @@ The phpAngularJS folder contains a project written by angularJS and php. The pro
 1. MVC Structure
 2. Dispatchers
 3. SQL Utility class
+4. Session Validation
+
