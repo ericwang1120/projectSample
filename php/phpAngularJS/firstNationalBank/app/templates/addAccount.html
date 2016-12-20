@@ -13,6 +13,9 @@
             <div class="col-md-2">Card Number:</div>
             <div class="col-md-3"><input class="form-control" type="text" ng-model="account.cardNum" ng-pattern="/\d{4}-\d{4}-\d{4}-\d{4}/" required></div>
         </div>
+        <div class="row">
+            <div class="col-md-3 col-md-offset-7">e.g. 1234-5678-1234-5678</div>
+        </div>
         <div class="row top-buffer-20">
             <div class="col-md-1">
                 <input type="submit" value="Submit" class="btn btn-primary" ng-click="openAccount(account)"
