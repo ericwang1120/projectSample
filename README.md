@@ -15,3 +15,12 @@ The phpAngularJS folder contains a project written by angularJS and php. The pro
 
 
 ## phpServerSideMVC
+### techniques
+### front-end
+1. Bootstrap CSS
+2. JQuery
+
+### back-end
+1. MVC Structure
+2. Dispatchers
+3. SQL Utility class
