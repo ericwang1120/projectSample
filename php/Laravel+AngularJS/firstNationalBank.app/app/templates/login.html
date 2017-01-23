@@ -1,0 +1,23 @@
+<form>
+    <div class="row top-buffer-20">
+        <div class="col-md-1 col-md-offset-4">Username:</div>
+        <div class="col-md-2 "><input type="text" class="form-control" ng-model="user.userName"
+                                      placeholder="Enter username" required>
+        </div>
+    </div>
+
+    <div class="row top-buffer-20">
+        <div class="col-md-1 col-md-offset-4 ">Password:</div>
+        <div class="col-md-2 "><input type="password" class="form-control" ng-model="user.userPassword"
+                                      placeholder="Enter password" required></div>
+    </div>
+
+    <div class="row top-buffer-20">
+        <div class="col-md-1 col-md-offset-4">
+            <button type="submit" class="btn btn-link" ng-click="doLogin(user)">Login</button>
+        </div>
+        <div class="col-md-1 ">
+            <a class="btn btn-link" href="#/register">Register</a>
+        </div>
+    </div>
+</form>

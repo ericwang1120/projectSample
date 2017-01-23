@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <link rel="stylesheet" type="text/css" href="app/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="app/css/toaster.css">
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+</head>
+
+<body>
+<div class="container">
+    <div class="panel panel-default">
+        <div class="row">
+            <div class="col-md-2"><img src="app/templates/brand.jpg" width="100" height="100"></div>
+            <div class="col-md-5 col-md-offset-2"><h2> Welcome to First National Bank</h2></div>
+        </div>
+    </div>
+</div>
+<div class="container">
+
+    <div data-ng-view="" id="ng-view" class="slide-animation"></div>
+
+</div>
+</body>
+<toaster-container></toaster-container>
+<!--Libs-->
+<script src="app/js/angular.min.js"></script>
+<script src="app/js/angular-animate.min.js"></script>
+<script src="app/js/angular-route.min.js"></script>
+<script src="app/js/toaster.js"></script>
+<script src="app/app.js"></script>
+<script src="app/controllers/authCtrl.js"></script>
+<script src="app/controllers/accountCtrl.js"></script>
+<script src="app/controllers/transactionCtrl.js"></script>
+<script src="app/controllers/transferCtrl.js"></script>
+<script src="app/controllers/registerCtrl.js"></script>
+<script src="app/controllers/logoutCtrl.js"></script>
+
+
+
+
+
