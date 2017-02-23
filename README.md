@@ -1,7 +1,7 @@
 # Xin(Eric) Wang's project sample
 ## 1. PHP
 ## Laravel5.3+AngulaJS1.59
-The phpAngularJS folder contains a project written in angularJS and Laravel. The project is about a tiny bank system in which users can register, open/close accounts as well as do transactions.    
+The phpAngularJS folder contains a project written in angularJS and Laravel. The project is about a tiny bank system in which users can register, open/close accounts as well as do transactions. This project is developed in web api structure.
 ### Techniques
 ### Front-end
 1. Bootstrap CSS
